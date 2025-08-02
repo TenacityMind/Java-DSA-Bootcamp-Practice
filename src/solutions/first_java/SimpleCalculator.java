@@ -1,23 +1,23 @@
 package solutions.first_java;
 
 public class SimpleCalculator {
-    private int a;
-    private int b;
+    private double a;
+    private double b;
     private char operation;
 
-    public int getA() {
+    public double getA() {
         return a;
     }
 
-    public void setA(int a) {
+    public void setA(double a) {
         this.a = a;
     }
 
-    public int getB() {
+    public double getB() {
         return b;
     }
 
-    public void setB(int b) {
+    public void setB(double b) {
         this.b = b;
     }
 
@@ -29,7 +29,7 @@ public class SimpleCalculator {
         this.operation = operation;
     }
 
-    public SimpleCalculator(int a, int b, char operation) {
+    public SimpleCalculator(double a, double b, char operation) {
         this.a = a;
         this.b = b;
         this.operation = operation;
@@ -51,4 +51,4 @@ public class SimpleCalculator {
         System.out.println("The sum is: " + sum);
     }
 
-}
+} 
