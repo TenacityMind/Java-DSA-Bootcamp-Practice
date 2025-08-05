@@ -1,7 +1,5 @@
 package solutions.conditional_loops;
 
-import java.text.NumberFormat;
-
 public class CommissionPercentage {
     public static double calculateCommission(double totalSales) {
         double commission = 0.0;
